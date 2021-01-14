@@ -1,0 +1,46 @@
+.h1 {
+  color:blue;
+  font-size:50px;
+  padding: 0 0 0 50px;
+  display: inline;
+}
+
+.h2 {
+  display: block;
+  color:black;
+  font-size:50px;
+  padding: 0 0 0 115px;
+}
+
+.box {
+  width: 450px;
+  height: 150px;
+  background-color:rgba(255,165,0,0.3);
+  padding: 0 0 0 0px;
+}
+
+
+body {
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 370px;
+  border: 3px dashed rgba(255,165,0,0.3);
+  background: url(image/5.gif) no-repeat;
+  background-size: 250px;
+  background-position: 50% 55%;
+  position: relative;
+}
+
+.bg {
+  width: auto;
+  height: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(image/3.gif);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
